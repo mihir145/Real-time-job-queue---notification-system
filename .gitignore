@@ -1,0 +1,24 @@
+# ──────────────────────────────────────────────
+# Root .gitignore — Real-time Job Queue & Notification System
+# ──────────────────────────────────────────────
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Environment secrets
+.env
+.env.*
+!.env.example

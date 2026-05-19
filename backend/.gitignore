@@ -1,0 +1,37 @@
+# ──────────────────────────────────────────────
+# Spring Boot / Maven .gitignore
+# ──────────────────────────────────────────────
+
+# Maven build output
+target/
+!target/.gitkeep
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Spring Boot packaged jar/war
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+spring.log
+
+# Application secrets / local overrides
+application-local.properties
+application-local.yml
+application-secret.properties
+
+# IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
